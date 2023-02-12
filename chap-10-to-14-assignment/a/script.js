@@ -35,11 +35,11 @@
 
 // refactor code
 
-let num1 = parseFloat(prompt("Enter first value: "));
-let num2 = parseFloat(prompt("Enter second value: "));
-let sign = prompt("Enter the operation (+, -, *, /, %): ");
+const num1 = parseFloat(prompt("Enter first value: "));
+const num2 = parseFloat(prompt("Enter second value: "));
+const sign = prompt("Enter the operation (+, -, *, /, %): ");
 
-let result = (sign === "+") ? num1 + num2 :
+const result = (sign === "+") ? num1 + num2 :
              (sign === "-") ? num1 - num2 :
              (sign === "*") ? num1 * num2 :
              (sign === "/") ? num1 / num2 :
