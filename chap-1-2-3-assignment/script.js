@@ -11,7 +11,7 @@
 
 // start from their
 
-let firstName="saleem"
-let lasName="raza"
-let age=22;
+const firstName="saleem"
+const lasName="raza"
+const age=22;
 alert("Hello "+firstName+lasName+", you are " +age +" years old")

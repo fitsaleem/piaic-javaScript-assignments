@@ -11,9 +11,9 @@ print meassage in alert() Hello Ameen Alam, You are 20 years old*/
 
 // start from their
 
-let firstName=prompt("enter your first name");
-let lasName=prompt("enter your last name");
-let age=prompt("enter your age");
+const firstName=prompt("enter your first name");
+const lasName=prompt("enter your last name");
+const age=prompt("enter your age");
 age=Number.parseInt(age);
 alert("Hello "+firstName+lasName+", you are " +age +" years old")
 
